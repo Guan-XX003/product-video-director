@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "thread_id": "01a0c2da-46ca-7a83-82f2-8dcff6dadb57",
+  "sources": [
+    {
+      "source": "/Users/growing-1/.agents/skills/product-video-director",
+      "destination": ".",
+      "files": 24
+    }
+  ],
+  "files": {
+    ".gitignore": {
+      "sha256": "b2e7690864e50e47571a262dc40d02074daf2d48d812293941962360e87f3984",
+      "mode": 420
+    },
+    "CHANGELOG.md": {
+      "sha256": "0da5c80a3bc35a682beac592070f0d30c92e10a2b0faea5494d28b8bc31538ef",
+      "mode": 420
+    },
+    "MANAGEMENT.md": {
+      "sha256": "b85afff5ef3f328df151a4cff00e6d6a1c9cecc746cb87ab3f8f13a92affe373",
+      "mode": 420
+    },
+    "README.md": {
+      "sha256": "bad0f266dc308b166f85ecf471d2284c3ac01e327934c2f7bb6adb9c48a51c78",
+      "mode": 420
+    },
+    "SKILL.md": {
+      "sha256": "e61b43b5c1ae5ee3401e8f9f92aff3864f0a72fbacfb1561e52a98636cd651bc",
+      "mode": 420
+    },
+    "agents/openai.yaml": {
+      "sha256": "b85f9a296ae3d3cc916229e9f4d7d25fa90521392b80d6eb46cae37959c9d05f",
+      "mode": 420
+    },
+    "references/animation-profiles.md": {
+      "sha256": "12b798f5ed010376c7fd0eb55634049a0e41c020622619cf070a95d9d06d3762",
+      "mode": 420
+    },
+    "references/asset-design.md": {
+      "sha256": "f8d2459fde43ac1da067e417f61053745f035bb4e51e5c1e24422e46b77cdcec",
+      "mode": 420
+    },
+    "references/delivery-package.md": {
+      "sha256": "8a44cf64a8176aacb9547679744f0e1a603ca5e9301cc84bf7bc61e8cda5312b",
+      "mode": 420
+    },
+    "references/hook-library.md": {
+      "sha256": "3cb56713388bee07a5838de1c5c0c2badf9c45ab1532de3e2eb3caf6c29b640a",
+      "mode": 420
+    },
+    "references/intake-and-state.md": {
+      "sha256": "59863b2016de91980ae9dde76454533f4aee64e22bc1c6d423c0a4bb47187fd0",
+      "mode": 420
+    },
+    "references/performance-and-atmosphere.md": {
+      "sha256": "ae3c03c77fe47c75730fb67d43b0bcf3f19733dcb094bb64439d7acae5bdf7fb",
+      "mode": 420
+    },
+    "references/product-research.md": {
+      "sha256": "28fa49554e5905d1b061a81b7ba7e178c5c9bf3aa871e7e590372ad4e83bc385",
+      "mode": 420
+    },
+    "references/quality-control.md": {
+      "sha256": "a5fb54923d25f1e89f04103d9b79e2fd9aa68d30d9eac2be60b1270cd98be3fa",
+      "mode": 420
+    },
+    "references/seedance-2.0.md": {
+      "sha256": "63acbb7329590598e133f67433b8aaa10f62eded1e8bb20681d8b418c1d8fec8",
+      "mode": 420
+    },
+    "references/storyboard-and-video.md": {
+      "sha256": "ccf3f78019e9787f62eacd8c75a7d3399512c06103eac5b4d8f1a1198efbe2c9",
+      "mode": 420
+    },
+    "references/style-profiles.md": {
+      "sha256": "00963f004c587d93ddfe34f49c42fa30123c0538c64a7597f98ec49a974196f0",
+      "mode": 420
+    },
+    "scripts/assemble_delivery.py": {
+      "sha256": "45faf9efa6b7fc8576b8d8cc870757cabdcce43e55a070b37dca735337bb2997",
+      "mode": 420
+    },
+    "scripts/dialogue_quality.py": {
+      "sha256": "decef12974f3b0a135b25f228c5b0235f1987f54f6f8fb0cc5a0976cbd5fbe11",
+      "mode": 420
+    },
+    "scripts/randomize_concept.py": {
+      "sha256": "bf45ad7826c5a0d8d39ec65c87e3a82d0307aa344ad303b4cd7120e31f873fd4",
+      "mode": 420
+    },
+    "scripts/style_contract.py": {
+      "sha256": "6fbb8c3584e6e2f0d5e7bf46e7932e19e8518eef770caaaa7f17c4db8316ff2e",
+      "mode": 420
+    },
+    "scripts/test_animation.py": {
+      "sha256": "dd20916291084b43f7193d61e036fc0aaaa3f7d626ab9e1b0a811c6b32d74e58",
+      "mode": 420
+    },
+    "scripts/test_delivery.py": {
+      "sha256": "f9cd6e0c795ecd5347034da1c82ef91c1a841dd72066993aa61981ee074da49d",
+      "mode": 420
+    },
+    "scripts/test_dialogue_quality.py": {
+      "sha256": "d9948a587ebed1d23049a6f3476a682ce3934f200927ae1bd2d53c08dff3a3c1",
+      "mode": 420
+    },
+    "scripts/test_workbench_controls.py": {
+      "sha256": "bb7d25a3739678f309ee3fb8985f29abf28d6d19d37e18d8017f97eb43c399bd",
+      "mode": 420
+    },
+    "scripts/validate_project.py": {
+      "sha256": "1d50b1661410db49704953357faccc8a5a67892a45a9aecd3deef5a2ac99870d",
+      "mode": 420
+    },
+    "scripts/validate_seedance_package.py": {
+      "sha256": "6641abb80b226622c479d564963446ab3c0d0fbf8bc0cc8dd3f14299ade9c44e",
+      "mode": 420
+    }
+  }
+}

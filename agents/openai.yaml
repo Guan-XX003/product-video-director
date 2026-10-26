@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Video Director"
+  short_description: "Research products and build production-ready AI video prompts"
+  default_prompt: "Use $product-video-director to research my product, verify real visuals and selling points, then build approved assets, a storyboard, and production-ready video prompts."
