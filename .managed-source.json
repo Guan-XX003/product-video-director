@@ -20,7 +20,7 @@
       "mode": 420
     },
     "README.md": {
-      "sha256": "386c77ffbb9aa4e638ce5d8d58978ec53eaad5865b79122bf6f6bb988f5fb3fb",
+      "sha256": "316bc49da631b1e7bca183fe96ec270c5fa0a3754a03c5edda768c08ae6577fa",
       "mode": 420
     },
     "SKILL.md": {
@@ -29,6 +29,10 @@
     },
     "agents/openai.yaml": {
       "sha256": "b85f9a296ae3d3cc916229e9f4d7d25fa90521392b80d6eb46cae37959c9d05f",
+      "mode": 420
+    },
+    "onboarding.json": {
+      "sha256": "b63410dd4fed50fce6038934a78e5f32a6a7edd17194780cdc082c04eb8d4511",
       "mode": 420
     },
     "references/animation-profiles.md": {
@@ -83,6 +87,10 @@
       "sha256": "decef12974f3b0a135b25f228c5b0235f1987f54f6f8fb0cc5a0976cbd5fbe11",
       "mode": 420
     },
+    "scripts/install_skills.py": {
+      "sha256": "2cc653ac736e90b7bf24228cbbc329b7d035bdc8c477d5068403c2c22301b0f4",
+      "mode": 493
+    },
     "scripts/randomize_concept.py": {
       "sha256": "bf45ad7826c5a0d8d39ec65c87e3a82d0307aa344ad303b4cd7120e31f873fd4",
       "mode": 420
@@ -113,6 +121,14 @@
     },
     "scripts/validate_seedance_package.py": {
       "sha256": "6641abb80b226622c479d564963446ab3c0d0fbf8bc0cc8dd3f14299ade9c44e",
+      "mode": 420
+    },
+    "setup-skills/product-video-director-setup/SKILL.md": {
+      "sha256": "6330c872f75f8c5432b57a9ab8cdda1067bc33890bf547a0672d173629b6f5d7",
+      "mode": 420
+    },
+    "setup-skills/product-video-director-setup/agents/openai.yaml": {
+      "sha256": "bae47d696c74f7d2760ef4982a7ca061049cd60d27f3ed69f3466e2e6f5150b0",
       "mode": 420
     }
   }

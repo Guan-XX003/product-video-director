@@ -4,6 +4,29 @@
 
 适合广告创意、产品介绍、电商短片和 App 推广的策划人员。它是给 Codex 等支持 `SKILL.md` 的 AI 助手使用的工作流，实际图片、视频生成能力由你使用的工具提供。
 
+## 让 AI 带你完成首次配置
+
+下载并进入本仓库后，用 Python 3 安装本项目的配置引导 Skill：
+
+```bash
+python3 scripts/install_skills.py
+```
+
+Windows 若没有 `python3` 命令，可使用 `py -3 scripts/install_skills.py`。
+
+安装器使用 Python 标准库，不会安装运行依赖、启动服务、下载模型或配置账号。它会安装配置引导 Skill，以及本仓库附带的业务 Skill（如果有）；默认目录为 `$CODEX_HOME/skills`，未设置时为 `~/.codex/skills`。更新同名 Skill 前，会把原目录备份到同级 `skill-backups/`。可用 `--dry-run` 查看计划，或用 `--skills-dir ~/.agents/skills` 指定目录。
+
+重新打开 Codex 任务后输入：
+
+```text
+$product-video-director-setup
+请检查我的环境，并带我配置这个项目，直到完成一个最小可用测试。
+```
+
+引导会识别系统、检查前置条件、使用你自己的账号与本地配置，并说明哪些步骤已验证、哪些仍待授权或实测。下载仓库不会自动执行 Skill；需要先安装并在支持 Skills 的助手中调用。安装器在本地 Skill 内记录克隆路径，之后请保留该目录；移动源码后重新运行安装器即可更新路径。
+
+也可手动复制 [`setup-skills/product-video-director-setup`](setup-skills/product-video-director-setup/SKILL.md) 整个目录到支持的 Skills 路径，再告诉助手源码位置。不使用 AI 助手的用户，可以继续按下面的手动步骤操作。
+
 ## 能做什么
 
 - 先核实产品功能、官网图片或真实 App 界面，区分事实和创意假设。

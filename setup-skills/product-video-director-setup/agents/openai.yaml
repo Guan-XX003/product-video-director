@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品视频 Skill 配置引导"
+  short_description: "帮助安装产品视频工作流、检查工具能力并完成第一份可校验的项目简报"
+  default_prompt: "请用 $product-video-director-setup 检查我的环境，并带我完成首次配置和最小用例验证。"

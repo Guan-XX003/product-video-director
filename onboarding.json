@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "repository": "product-video-director",
+  "setup_skill": "product-video-director-setup",
+  "skills": [
+    {
+      "name": "product-video-director",
+      "path": "."
+    },
+    {
+      "name": "product-video-director-setup",
+      "path": "setup-skills/product-video-director-setup"
+    }
+  ]
+}
