@@ -1,9 +1,7 @@
 {
   "schema": 1,
-  "thread_id": "01a0c2da-46ca-7a83-82f2-8dcff6dadb57",
   "sources": [
     {
-      "source": "/Users/growing-1/.agents/skills/product-video-director",
       "destination": ".",
       "files": 24
     }
@@ -18,11 +16,11 @@
       "mode": 420
     },
     "MANAGEMENT.md": {
-      "sha256": "b85afff5ef3f328df151a4cff00e6d6a1c9cecc746cb87ab3f8f13a92affe373",
+      "sha256": "8edba9b0fa753454ea84c4df4e7bd1ff747420b8e76a30971e0198debad4332e",
       "mode": 420
     },
     "README.md": {
-      "sha256": "bad0f266dc308b166f85ecf471d2284c3ac01e327934c2f7bb6adb9c48a51c78",
+      "sha256": "386c77ffbb9aa4e638ce5d8d58978ec53eaad5865b79122bf6f6bb988f5fb3fb",
       "mode": 420
     },
     "SKILL.md": {
